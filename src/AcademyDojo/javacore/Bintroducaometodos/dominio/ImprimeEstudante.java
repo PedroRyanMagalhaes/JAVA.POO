@@ -1,10 +1,10 @@
 package AcademyDojo.javacore.Bintroducaometodos.dominio;
 
 public class ImprimeEstudante {
-    public void imprime(Estudante estudante){
+    public void imprime(Estudante exemplo){
         System.out.println("-------");
-        System.out.println(estudante.nome);
-        System.out.println(estudante.idade);
-        System.out.println(estudante.sexo);
+        System.out.println(exemplo.nome);
+        System.out.println(exemplo.idade);
+        System.out.println(exemplo.sexo);
     }
 }
